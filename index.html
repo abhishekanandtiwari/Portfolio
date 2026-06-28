@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Anand Tiwari — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ───── NAV ───── -->
+  <nav>
+    <div class="nav-logo">Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ───── HERO ───── -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid">
+      <div>
+        <p class="hero-eyebrow"> Hello World - I'm</p>
+        <h1 class="hero-name">Abhishek <span>Anand Tiwari</span></h1>
+        <p class="hero-role"> · <strong>Computer Science undergraduate · Aspiring Software Engineer · Builder of intelligent systems with Python, ML & Web Technologies · Patent Holder</strong> 
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects →</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ───── ABOUT ───── -->
+  <section id="about">
+    <div class="section reveal">
+      <p class="section-label"> About</p>
+      <h2 class="section-title">Turning Code into <span>Impact</span></h2>
+      <div class="stats-row" id="stats-container">
+        <!-- Filled by data.js -->
+      </div>
+      <p class="about-text">
+        A second-year Computer Science student at Rungta College Of Engineering And Technology Bhilai, passionate about building intelligent
+        systems with Python, Machine Learning, and data-driven problem solving. Holder of a
+        Government of India utility patent while studying in second year.
+      </p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ───── SKILLS ───── -->
+  <section id="skills">
+    <div class="skills-inner reveal">
+      <p class="section-label">Skills</p>
+      <h2 class="section-title">Tools & <span>Technologies</span></h2>
+      <div class="skills-grid" id="skills-container">
+        <!-- Filled by data.js -->
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ───── PROJECTS ───── -->
+  <section id="projects">
+    <div class="section reveal">
+      <p class="section-label"> Projects</p>
+      <h2 class="section-title">Things I've <span>Built</span></h2>
+      <div class="projects-grid" id="projects-container">
+        <!-- Filled by data.js -->
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ───── EXPERIENCE ───── -->
+  <section id="experience">
+    <div class="section reveal">
+      <p class="section-label"> Experience</p>
+      <h2 class="section-title">Journey & <span>Achievements</span></h2>
+      <div class="timeline" id="timeline-container">
+        <!-- Filled by data.js -->
+      </div>
+      <div class="patent-card">
+        <div class="patent-badge">🏅 Government of India — Utility Patent</div>
+        <div class="patent-title">
+          Microbial Fuel Cell-Powered Self-Sustaining LED Lantern for Off-Grid Lighting
+        </div>
+        <div class="patent-meta">Application No. 202521015359 &nbsp;·&nbsp; Filed February 2025</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ───── EDUCATION ───── -->
+  <section id="education">
+    <div class="section reveal">
+      <p class="section-label"> Education</p>
+      <h2 class="section-title">Academic <span>Background</span></h2>
+      <div class="edu-grid" id="edu-container">
+        <!-- Filled by data.js -->
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ───── CONTACT ───── -->
+  <section id="contact">
+    <div class="contact-inner reveal">
+      <p class="section-label" style="text-align:center;"> Contact</p>
+      <h2 class="section-title" style="font-size:2rem;">Let's <span>Connect</span></h2>
+      <p style="color:var(--muted);font-size:1rem;line-height:1.7;">
+        Looking for internship opportunities and open to collaborating on AI/ML projects.
+        Drop me a message — always happy to connect!
+      </p>
+      <div class="contact-links" id="contact-container">
+        <!-- Filled by data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer>
+    Built by <span>Abhishek Anand Tiwari</span> &nbsp; &nbsp;
+  </footer>
+
+  <!-- Load data first, then script -->
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
